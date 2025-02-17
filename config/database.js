@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 exports.connect = () => {
-  const uri = "mongodb+srv://vishal922002:admin123@vishalproject.cfmca.mongodb.net/?retryWrites=true&w=majority&appName=vishalproject"; // Replace with your MongoDB URI
+  const uri = "mongodb+srv://root:root@cluster0.27cqw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your MongoDB URI
 
   mongoose.connect(uri, {
     useNewUrlParser: true,
